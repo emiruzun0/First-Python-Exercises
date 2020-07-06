@@ -30,3 +30,4 @@ number2 = input("Number 2 :")
 print(number1 + number2) #print as string
 print(int(number1) + int(number2)) #sum of numbers
 
+
