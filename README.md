@@ -1,2 +1,2 @@
 # First-Python-Exercises
-I'm learning python and my first python exercises
+I'm learning python and these are my first python exercises
