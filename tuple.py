@@ -31,3 +31,5 @@ print(type(tupleValue2)) # Print tuple
 
 print(tupleList[1:2]) #From index 1 to index 2 ( Index 2 is not included ! )
 print(listStructure[1:2])  #From index 1 to index 2 ( Index 2 is not included ! )
+
+
