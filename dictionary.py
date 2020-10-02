@@ -23,3 +23,40 @@ print(myDictionary)
 
 del(myDictionary["book"])
 print(myDictionary)
+
+
+#-----------------------------
+
+file_counts = {"jpg":10, "txt":14, "csv":2, "py":23}
+
+for ext, amount in file_counts.items():
+    print("There are {} files with the .{} extension".format(amount,ext))
+    
+    
+print(file_counts.keys())
+print(file_counts.values())
+
+
+for value in file_counts.values():
+    print(value)
+#--------------------------
+    
+    
+def count_letters(text):
+    result = {}
+    for letter in text:
+        if letter not in result:
+            result[letter] = 0
+        result[letter] += 1
+    return result
+
+print(count_letters("aaaaa"))
+print(count_letters("tenant"))
+print(count_letters("a long string with a lot of letters"))
+
+
+#--------------------------------
+
+wardrobe = {'shirt': ['red', 'blue', 'white'], 'jeans': ['blue', 'black']}
+new_items = {'jeans': ['white'], 'scarf': ['yellow'], 'socks': ['black', 'brown']}
+print(wardrobe.update(new_items))
